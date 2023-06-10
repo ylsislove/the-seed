@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Customize Phone Controller.unity
-    guid: 7a96ce6498b5bb14abb62ce59871ab24
+    path: Assets/Scenes/Plane Detection.unity
+    guid: 97b413d1fb11198468bfe2c2e4adac62
   m_configObjects: {}

@@ -28,7 +28,7 @@ namespace NRKernal.NRExamples
         /// <summary> List of positions. </summary>
         List<Vector3> m_PosList = new List<Vector3>();
         /// <summary> The plane mesh. </summary>
-        Mesh m_PlaneMesh = null;
+        public Mesh m_PlaneMesh = null;
 
 #if UNITY_EDITOR
         /// <summary> The vectors data editor. </summary>
