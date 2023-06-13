@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Plane Detection.unity
-    guid: 97b413d1fb11198468bfe2c2e4adac62
+    path: Assets/Scenes/Hand Tracking.unity
+    guid: e65ab77360abf4942b5f2e4806b40d50
   m_configObjects: {}

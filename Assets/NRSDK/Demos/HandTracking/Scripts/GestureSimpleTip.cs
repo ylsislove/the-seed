@@ -30,7 +30,7 @@ namespace NRKernal.NRExamples
             UpdateGestureTip();
         }
 
-        private void UpdateGestureTip()
+        public virtual void UpdateGestureTip()
         {
             var handState = NRInput.Hands.GetHandState(handEnum);
             if (handState == null)
@@ -78,7 +78,7 @@ namespace NRKernal.NRExamples
             }
         }
 
-        private string GetHandEnumLabel()
+        public string GetHandEnumLabel()
         {
             switch (handEnum)
             {
@@ -92,7 +92,7 @@ namespace NRKernal.NRExamples
             return string.Empty;
         }
 
-        private void UpdateAnchorTransform(Vector3 jointPos)
+        public void UpdateAnchorTransform(Vector3 jointPos)
         {
             var vec_from_head = jointPos - Camera.main.transform.position;
             var vec_horizontal = Vector3.Cross(Vector3.down, vec_from_head).normalized;

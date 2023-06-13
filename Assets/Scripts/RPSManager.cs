@@ -13,6 +13,8 @@ public class RPSManager : MonoBehaviour
 
     public void OnClick()
     {
+        Debug.Log("start");
+        
         if (isPlaying)
             return;
 
